@@ -14,4 +14,4 @@ Esse site foi criado com o objetivo de testar meus conhecimentos com o uso de AP
 
 ## Acesso:
 
-Para você acessar esse site basta fazer um clone do projeto e depois entrar na página 'index.html'.
+Para você acessar esse site basta fazer um clone do projeto e depois entrar na página 'index.html' ou você pode simplesmente só clicar [aqui](https://the-pokepedia.netlify.app/) e ir para o site
