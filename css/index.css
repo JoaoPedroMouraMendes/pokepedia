@@ -24,6 +24,7 @@ body {
     min-height: 100vh;
     background-attachment: fixed;
     background-size: cover;
+    padding-bottom: 50px;
 }
 
 main {
@@ -32,7 +33,7 @@ main {
     padding: 40px 20px;
 
     background-color: white;
-    border-radius: 5px;
+    border-radius: 15px;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.55);
 }
 
