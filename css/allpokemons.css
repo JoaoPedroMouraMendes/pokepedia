@@ -1,0 +1,113 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+:root {
+    --color0: #ea3457;
+    --color1: #F6592A;
+    --color2: #602f75;
+    --color3: #493b9b;
+    --color4: #404040;
+
+    --main-font: 'Open Sans', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--main-font);
+}
+
+body {
+    background-image: url('../images/background.jpg');
+    background-position: center center;
+    min-height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+    padding: 40px 0px;
+
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.55);
+}
+
+#pokemon-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pokemon-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 150px;
+    height: 200px;
+    padding: 8px 6px;
+
+    background-color: var(--color4);
+    border-radius: 8px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.7);
+
+    transition-duration: 0.5s;
+}
+
+.pokemon-card:hover {
+    transform: scale(1.05);
+    transition-duration: 0.5s;
+}
+
+.pokemon-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokemon-header img {
+    margin-bottom: 8px;
+
+    border-radius: 50%;
+    background-color: white;
+}
+
+.pokemon-header span {
+    font-size: 1.25em;
+    color: white;
+    text-align: center;
+}
+
+.element-list {
+    display: flex;
+    justify-content: start;
+}
+
+.element1 {
+    text-align: center;
+    width: 50%;
+
+    background-color: #2FDE5B;
+    color: white;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.element2 {
+    text-align: center;
+    width: 50%;
+    padding: 1px 0px;
+
+    background-color: #A732FA;
+    color: white;
+    border-radius: 0px 4px 4px 0px;
+}
+
+@media (min-width: 1000px) {
+    main {
+        width: 60%;
+    }
+}

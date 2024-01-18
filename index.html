@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="shortcut icon" href="images/pokeball-icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>PokéPédia</title>
+</head>
+<body>
+
+    <header>
+        <h1 translate="no">PokéPédia</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html"><img src="images/pokeball-icon.png" alt="icone"></a></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="pages/allpokemons.html">All Pokémon</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div id="card">
+            <header>
+                <h1 id="poke-name" translate="no">Pokemon</h1>
+            </header>
+            <section>
+                <ul id="poke-game">
+                    <li>
+                        <img src="images/controller.png" alt="controller" id="game" class="icon" title="">
+                    </li>
+                    <li>
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="pokemon" id="img-poke" title="">
+                    </li>
+                </ul>
+                <ul id="elements-list">
+                    <li id="element-list1">
+                        <span id="element1" translate="no">
+                            element
+                        </span>
+                    </li>
+                    <li id="element-list2">
+                        <span id="element2" translate="no">
+                            element
+                        </span>
+                    </li>
+                </ul>
+            </section>
+        </div>
+
+        <form id="form">
+            <input type="search" name="search-pokemon" id="search-pokemon" placeholder="Search for a Pokémon..." autocomplete="off">
+        </form>
+
+        <input type="button" value="Random" id="random-poke">
+
+        <section id="move">
+            <div id="move-header">
+                <h2>Moves</h2>
+                <i class="fa-solid fa-atom"></i>
+            </div>
+            <div>
+                <div id="move-list">
+
+                </div>
+            </div>
+        </section>
+    </main>
+<script src="js/mainFunctions.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
