@@ -2,7 +2,7 @@
 
 Esse site foi criado com o objetivo de testar meus conhecimentos com o uso de APIs. Para sua criação usei a API [PokéAPI](https://pokeapi.co/) sem ela não seria possível criar o site.
 
-Nesse site:
+## Nesse site:
 
 :white_check_mark: Tem todos os pokémons;
 
@@ -12,6 +12,6 @@ Nesse site:
 
 
 
-Acesso:
+## Acesso:
 
-Para você acessar esse site basta baixar todos os arquivos e depois entrar na página 'index.html' ou você pode entrar diretamente pelo o GitHub pages clicando [aqui](https://edwardhp.github.io/pokepedia/).
+Para você acessar esse site basta fazer um clone do projeto e depois entrar na página 'index.html'.
